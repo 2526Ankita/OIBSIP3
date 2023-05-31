@@ -1,0 +1,377 @@
+        *{
+            background-color: #ECC9EE;
+        }
+        .box1{
+                width: 100px;
+                height: 450px;
+                left: 0px;
+                padding: 20px 20px 20px 20px;
+                margin: auto;
+                background-color: rgb(86, 150, 18);
+                position:absolute;
+            }
+        .box2{
+            width: 350px;
+            height: 450px;
+            padding: 20px 20px 20px 20px;
+            margin: auto;
+            left:525px;
+            background-color: #05BFDB;
+            position:absolute;
+        }
+        .box3{
+            width: 300px;
+            height: 150px;
+            left: 1050px;
+            padding: 20px 20px 20px 20px;
+            margin: auto;
+            top:300px;
+            font-family: Times New Roman;
+            background-color: #8B1874;
+            position:absolute;
+        }
+        .title{
+            font: 10mm Times New Roman;
+            text-align:justify;
+            color: #8B1874;
+            font-weight: bold;
+        }
+        .block{
+            position: relative;
+        }
+        .input{
+            position:absolute;
+            width: 250px;
+            height: 50px;
+            left:18px;
+            padding: 10px 10px 10px 10px;
+            border: 3px solid black;
+            background-color:#088395;
+            color: black;
+            margin: auto; 
+        }
+        .clear {
+            position:absolute;
+            left:297px;
+            width: 75px;
+            height: 75px;
+            padding: 10px 10px 10px 10px;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            margin: auto;
+            transition: 1s;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        
+        .clear:hover {
+            width:90px;
+            height:80px;
+        }
+        
+        .num0{
+            position:absolute;
+            left:113px;
+            top:85%;
+            width: 80px;
+            height: 50px;
+            background-color:#2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num1{
+            position:absolute;
+            left:20px;
+            top:25%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num2{
+            position:absolute;
+            left:113px;
+            top:25%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color:#2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num3{
+            position:absolute;
+            left:205px;
+            top:25%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num4{
+            position:absolute;
+            left:20px;
+            top:45%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num5{
+            position:absolute;
+            left:113px;
+            top:45%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num6{
+            position:absolute;
+            left:205px;
+            top:45%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num7{
+            position:absolute;
+            left:20px;
+            top:65%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num8{
+            position:absolute;
+            left:113px;
+            top:65%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num9{
+            position:absolute;
+            left:205px;
+            top:65%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .divide{
+            position:absolute;
+            left:297px;
+            top:25%;
+            width: 70px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .subtract{
+            position:absolute;
+            left:297px;
+            top:45%;
+            width: 70px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+            
+        }
+        .sum{
+            position:absolute;
+            left:297px;
+            top:65%;
+            width: 70px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .multiply{
+            position:absolute;
+            left:297px;
+            top:85%;
+            width: 70px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .dot{
+            position:absolute;
+            left:20px;
+            top:85%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: #2d3142;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            border-radius: 50px;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .submit{
+            border: double;
+            position:absolute;
+            left:205px;
+            top:85%;
+            width: 80px;
+            height: 50px;
+            font-size: large;
+            background-color: red;
+            color: aliceblue;
+            border: 3px solid black;
+            text-align:center;
+            transition: 1s;
+            box-shadow: 0px 0px 25px 25px solid blue;
+        }
+        .num0:hover{
+            width:90px;
+            height:60px;
+        }
+        .num1:hover{
+            width:90px;
+            height:60px;
+        }
+        .num2:hover{
+            width:90px;
+            height:60px;
+        }
+        .num3:hover{
+            width:90px;
+            height:60px;
+        }
+        .num4:hover{
+            width:90px;
+            height:60px;
+        }
+        .num5:hover{
+            width:90px;
+            height:60px;
+        }
+        .num6:hover{
+            width:90px;
+            height:60px;
+        }
+        .num7:hover{
+            width:90px;
+            height:60px;
+        }
+        .num8:hover{
+            width:90px;
+            height:60px;
+        }
+        .num9:hover{
+            width:90px;
+            height:60px;
+        }
+        .sum:hover{
+            width:90px;
+            height:60px;
+        }
+        .subtract:hover{
+            width:90px;
+            height:60px;
+        }
+        .divide:hover{
+            width:90px;
+            height:60px;
+        }
+        .dot:hover{
+            width:90px;
+            height:60px;
+        }
+        .multiply:hover{
+            width:90px;
+            height:60px;
+        }
+        .submit:hover{
+            width:90px;
+            height:60px;
+        }
+        
+        
